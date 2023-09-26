@@ -1,0 +1,64 @@
+.submission-form{
+    max-width:  300px; 
+    margin: 0.1rem auto;
+    text-align: center;
+    border: 2.5px solid rgba(54, 165, 216, 0.637);
+    padding:  0 1rem ;
+    padding-top: 1rem;
+    padding-right: 2rem; border-radius: 5px;
+}
+
+
+h1{
+    margin: 2rem auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:0 ;
+    font-size: 35px;
+}
+label,input{
+    display: block;
+    text-align: left;
+    line-height: 20px;
+}
+select,textarea {
+       text-align: left;
+       display: block;
+      
+}
+#num{
+   text-align:center;
+   padding: 1rem;
+}
+#sendbtn{
+    border:0 ;
+    background-color: rgba(15, 186, 209, 0.795);
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    width: auto;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s  ease;
+}
+#sendbtn:hover{
+    background: #5b8ac0;
+}
+body{
+    font-family: sans-serif;
+}
+
+label,p{
+    padding: 0.5rem 0.2;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+input,textarea{
+    display: block;
+    width: 100%;
+   border: 2px solid rgba(0, 225, 255, 0.726);
+   padding: .5rem;
+   font-size: 14px;
+   border-radius: 5px;
+}
